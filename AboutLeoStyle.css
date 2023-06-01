@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+     background-image: url('Imagestock/LeonardoBackgroundImage.jpg');
+
+.navbar {
+    font-family: Times New Roman;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+li a:hover {
+    color: aquamarine;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: justify;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+   
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
